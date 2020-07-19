@@ -96,7 +96,8 @@ device = torch.device("cuda" if use_cuda else "cpu")
 model = Net().to(device)
 summary(model, input_size=(1, 28, 28))
 ```
-###Preparing the Dataset
+### Preparing the Dataset
+
 We will be using the popular MNIST database. It is a collection of 70000 handwritten digits split into training and test set of 60000 and 10000 images respectively.
 
 `datasets.MNIST` we are downloading the MNIST dataset for training and testing at path `../data`
