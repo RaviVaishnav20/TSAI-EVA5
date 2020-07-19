@@ -7,11 +7,11 @@ The difference between filter and kernel is a bit tricky. Sometimes, they are us
 With these concepts, the multi-channel convolution goes as the following. Each kernel is applied onto an input channel of the previous layer to generate one output channel. This is a kernel-wise process. We repeat such process for all kernels to generate multiple channels. Each of these channels are then summed together to form one single output channel. The following illustration should make the process clearer.
 Here the input layer is a 5 x 5 x 3 matrix, with 3 channels. The filter is a 3 x 3 x 3 matrix. First, each of the kernels in the filter are applied to three channels in the input layer, separately. Three convolutions are performed, which result in 3 channels with size 3 x 3.
 
-![Kernel vs Channel]"https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/kernelVSchannel_2.gif"
+![Kernel vs Channel](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/kernelVSchannel_2.gif)
 
 Then these three channels are summed together (element-wise addition) to form one single channel (3 x 3 x 1). This channel is the result of convolution of the input layer (5 x 5 x 3 matrix) using a filter (3 x 3 x 3 matrix).
 
-![Kernel vs Channel]"https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/kernelVSchannel_3.gif"
+![Kernel vs Channel](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/kernelVSchannel_3.gif)
 
 Equivalently, we can think of this process as sliding a 3D filter matrix through the input layer. Notice that the input layer and the filter have the same depth (channel number = kernel number). The 3D filter moves only in 2-direction, height & width of the image (That’s why such operation is called as 2D convolution although a 3D filter is used to process 3D volumetric data). At each sliding position, we perform element-wise multiplication and addition, which results in a single number. In the example shown below, the sliding is performed at 5 positions horizontally and 5 positions vertically. Overall, we get a single output channel.
 
@@ -26,13 +26,13 @@ Therefore, convolutions are done usually keeping these two things in mind -
 Most of the features in an image are usually local. Therefore, it makes sense to take few local pixels at once and apply convolutions.
 Most of the features may be found in more than one place in an image. This means that it makes sense to use a single kernel all over the image, hoping to extract that feature in different parts of the image.
 
-![Small kernel vs Large kernel]"https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/Small_vs_Large_Kernel.PNG"
+![Small kernel vs Large kernel](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/Small_vs_Large_Kernel.PNG)
 
 Based on the points listed in the above table and from experimentation, smaller kernel filter sizes are a popular choice over larger sizes.
 
 Another question could be the preference for odd number filters or kernels over 2X2 or 4X4.
 
-![2x2 kernel]"https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/2x2kernel.jpg"
+![2x2 kernel](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/2x2kernel.jpg)
 
 The explanation for that is that though we may use even sized filters, odd filters are preferable because if we were to consider the final output pixel (of next layer) that was obtained by convolving on the previous layer pixels, all the previous layer pixels would be symmetrically around the output pixel. Without this symmetry, we will have to account for distortions across the layers. This will happen due to the usage of an even sized kernel. Therefore, even sized kernel filters aren’t preferred.
 
@@ -56,7 +56,7 @@ Total Number of Kernels used -> 1004
 
 **Answer:** The filters at the first few initial layers extract direction & color, these primitive(edges & color) feature maps get combined into basic grids, textures & patterns. These, in turn, get combined to extract increasingly complex features which resemble parts of objects. As we move down the network the features extracted become more complex to interpret.
 
-![CNN training]"https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/CNN_training.png"
+![CNN training](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%201_Python%20101/images/CNN_training.png)
 
 The above diagram shows feature maps at different stages on the network. The feature maps at the initial(lower) layers encode edges & direction i.e. horizontal or vertical lines, the feature maps obtained at the middle of the network visualize textures & patterns, the feature maps at top layers depict parts of objects & objects in the image.
 
