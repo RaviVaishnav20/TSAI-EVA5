@@ -26,6 +26,7 @@ When do we stop convolutions and go ahead with a larger kernel or some other alt
 How do we know our network is not going well, comparatively, very early
 Batch Size, and effects of batch size
 
+[Read the step-by-step detailed article here on Medium.]()
 ## Model Summmary
 
 ``` ----------------------------------------------------------------
