@@ -26,7 +26,7 @@ When do we stop convolutions and go ahead with a larger kernel or some other alt
 How do we know our network is not going well, comparatively, very early
 Batch Size, and effects of batch size
 
-[Read the step-by-step detailed article here on Medium.]()
+[Read the step-by-step detailed article here on Medium.](https://medium.com/@ravivaishnav20/handwritten-digit-recognition-using-pytorch-get-99-5-accuracy-in-20-k-parameters-bcb0a2bdfa09?sk=21885163867e393cba006d5b84bdfecb)
 ## Model Summmary
 
 ``` ----------------------------------------------------------------
@@ -144,4 +144,4 @@ Test set: Average loss: 0.0171, Accuracy: 9937/10000 (99.4%)
 
 epoch: 19 loss=0.04640066251158714 batch_id=468: 100%|██████████| 469/469 [00:22<00:00, 20.72it/s]
 
-Test set: Average loss: 0.0179, Accuracy: 9938/10000 (99.4%) ```
+Test set: Average loss: 0.0179, Accuracy: 9938/10000 (99.4%) 
