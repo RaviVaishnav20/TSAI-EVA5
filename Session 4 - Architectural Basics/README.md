@@ -5,12 +5,12 @@
  - No fully connected layer
 
 ## We can use below concept to achieve the target
-```How many layers,
-MaxPooling,
-1x1 Convolutions,
-3x3 Convolutions,
-Receptive Field,
-SoftMax,
+> How many layers,
+> MaxPooling,
+> 1x1 Convolutions,
+> 3x3 Convolutions,
+> Receptive Field,
+> SoftMax,
 Learning Rate,
 Kernels and how do we decide the number of kernels?
 Batch Normalization,
@@ -27,7 +27,7 @@ How do we know our network is not going well, comparatively, very early
 Batch Size, and effects of batch size```
 
 ## Model Summmary
-```
+
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
