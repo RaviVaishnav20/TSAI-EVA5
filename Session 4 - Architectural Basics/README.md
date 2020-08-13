@@ -5,7 +5,7 @@
  - No fully connected layer
 
 ## We can use below concept to achieve the target
-How many layers,
+```How many layers,
 MaxPooling,
 1x1 Convolutions,
 3x3 Convolutions,
@@ -24,10 +24,10 @@ The distance of MaxPooling from Prediction,
 The distance of Batch Normalization from Prediction,
 When do we stop convolutions and go ahead with a larger kernel or some other alternative (which we have not yet covered)
 How do we know our network is not going well, comparatively, very early
-Batch Size, and effects of batch size
+Batch Size, and effects of batch size```
 
 ## Model Summmary
-
+```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -65,9 +65,9 @@ Forward/backward pass size (MB): 3.08
 Params size (MB): 0.07
 Estimated Total Size (MB): 3.15
 ----------------------------------------------------------------
-
+```
 ## Training Loss
-
+```
   0%|          | 0/469 [00:00<?, ?it/s]/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:53: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
 epoch: 1 loss=0.27045467495918274 batch_id=468: 100%|██████████| 469/469 [00:22<00:00, 20.58it/s]
   0%|          | 0/469 [00:00<?, ?it/s]
@@ -144,3 +144,4 @@ Test set: Average loss: 0.0171, Accuracy: 9937/10000 (99.4%)
 epoch: 19 loss=0.04640066251158714 batch_id=468: 100%|██████████| 469/469 [00:22<00:00, 20.72it/s]
 
 Test set: Average loss: 0.0179, Accuracy: 9938/10000 (99.4%)
+```
