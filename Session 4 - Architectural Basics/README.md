@@ -1,3 +1,8 @@
+## Group Members
+Ravi Das Vaishnav
+Ganesh Prasad
+Sneha Vijayakumar
+
 ## Target
  - 99.4% validation accuracy
  - Less than 20k Parameters
