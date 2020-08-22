@@ -2,9 +2,7 @@
 [CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook1.ipynb)
 
 Target:
-
 Get the set-up right
-
 *   Set Transforms
 *   Set Data Loader
 *   Set Basic Working Code
@@ -27,13 +25,11 @@ Analysis:
 
 Target:
 
-Get the set-up right
 *   Use nn.Sequential
 *   Make model Lighter
 *   Add BatchNorm
 *   Apply dropOut on each layer
 *   Replace last 7x7 layer with GAP
-
 
 Results:
 
@@ -88,7 +84,6 @@ Analysis:
 
 Target:
 
-Get the set-up right
 *   Add rotation, of (-7 to 7) degrees.
 *   Add StepLR scheduler
 
