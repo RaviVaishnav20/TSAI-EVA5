@@ -21,6 +21,8 @@ Get the set-up right
 *   Model is over-fitting, but we are changing our model in the next step
 
 
+
+
 ## CODE 2: APPLY TECHNIQUE BATCH NORMALIZATION, REGULARIZATION, and GLOBAL AVERAGE POOLING
 [CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook2.ipynb)
 
@@ -58,6 +60,8 @@ Get the set-up right
   - Best training accuracy = 93.91
   - Best Test accuracy = 97.78%
   
+  
+  
 
 ## CODE 3: INCREASE MODEL CAPACITY AND FINE TUNE MAXPOOLING POSITION
 [CODE](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/notebooks/S5_notebook3.ipynb)
@@ -78,6 +82,8 @@ Get the set-up right
 *   Model is very good.
 *   No overfitting
 *   Still model is not able to get 99.4%
+
+
 
 
 ## CODE 4: APPLY IMAGE AUGMENTATION AND FINE TUNE LEARNING RATE, ADD StepLR SCHEDULER
