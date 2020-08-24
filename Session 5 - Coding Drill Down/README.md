@@ -115,5 +115,5 @@ Get the set-up right
 ## Loss and Accuracy plot
 ![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/images/Loss_and_accuracy_plot.png)
 
-## Logs
+## Summary
 ![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%205%20-%20Coding%20Drill%20Down/images/logs.png)
