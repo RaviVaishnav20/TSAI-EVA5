@@ -1,24 +1,24 @@
 ## Analysis
 
 ### with L1 + BN
-- Best Train accuracy:99.14
-- Best Test accuracy:99.44
+- Best Train accuracy: 99.14
+- Best Test accuracy: 99.44
 
 ### with L2 + BN
-- Best Train accuracy:99.13
-- Best Test accuracy:99.45
+- Best Train accuracy: 99.13
+- Best Test accuracy: 99.45
 
 ### with L1 and L2 with BN
-- Best Train accuracy:99.01
-- Best Test accuracy:99.44
+- Best Train accuracy: 99.01
+- Best Test accuracy: 99.44
 
 ### with GBN
-- Best Train accuracy:99.04
-- Best Test accuracy:99.44
+- Best Train accuracy: 99.04
+- Best Test accuracy: 99.44
 
 ### with L1 and L2 with GBN
-- Best Train accuracy:99.01
-- Best Test accuracy:99.45
+- Best Train accuracy: 99.01
+- Best Test accuracy: 99.45
 
 
 ## Losses and Acurracy plot:
