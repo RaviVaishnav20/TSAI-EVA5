@@ -16,7 +16,7 @@ test_accuracy = []
 
 # Hyper parameters
 LAMBDA1=1e-5
-LR=0.1
+LR=0.01
 MOMENTUM=0.9
 WEIGHT_DECAY=0.0001    #
 EPOCHS = 50
@@ -72,7 +72,7 @@ def main():
     scheduler = StepLR(optimizer, step_size=13, gamma=0.1)
 
     # Start training
-    for epoch in range(1):
+    for epoch in range(EPOCHS):
         train_loss, train_acc = TrainModel.train(model, device, trainloader, criterion, optimizer, epoch)
         # scheduler.step()
         train_losses.append(train_loss)
@@ -88,9 +88,7 @@ def main():
     torch.save(model.state_dict(), MODEL_PATH+"model8_v3.pth")
 
     #misclassified images
-    ms.show_save_misclassified_images(model, device, testloader, classes, list(img_mean), list(img_std),
-                                      name="fig_cifar10_v1", PATH=IMAGE_PATH,
-                                      max_misclassified_imgs=25)
+    ms.show_save_misclassified_images(model, device, testloader, classes, list(img_mean), list(img_std), "fig_cifar10_v1", IMAGE_PATH, 25)
 
 
 if __name__ == "__main__":
