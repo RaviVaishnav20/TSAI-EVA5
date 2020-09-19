@@ -9,7 +9,7 @@
 ### Result:
 - Best Train accuracy: 99.12
 - Best Test accuracy: 93.00
-- Total Parameters: 753,984
+- Total Parameters: 11,173,962
 - Total Epochs 50
 
 ### Observation
