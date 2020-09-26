@@ -15,9 +15,9 @@
 
 ### Observation
 - Model is overfitting
-- Acheive targeted accuracy in 8 epochs
-- Dropout  and GhostBatchNormalization are not used in model ResNet18.
-- Hypothesis by using dropout and GhostBatchNormalization we be able to solve overfitting issue
+- Acheive targeted accuracy in 21 epochs
+- GradCam helps alot to find out why model predict the specific class.
+- Albumentations is good for image augmentation. I tried different combination of transforms, activation map helps us to select transforms.
 
 
 
@@ -36,7 +36,7 @@
 ## Misclassified images activation images:
 ![](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%209%20-%20Image_Augmentation_and_Class_Activation_Maps/visualization/misclassified_activation_map.png)
 
-## Accuracy and Losses logs:
+## Training logs:
 
 : EPOCH= 0 Loss= 1.7647 Batch_id= 1562 Accuracy= 28.92: 100%|██████████| 1563/1563 [01:05<00:00, 23.88it/s]
   0%|          | 0/1563 [00:00<?, ?it/s]
