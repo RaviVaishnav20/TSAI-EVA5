@@ -1,4 +1,4 @@
-
+from utils import *
 __all__ = ["Cifar10ResNet", "resnet20", "resnet32", "resnet44", "resnet56", "resnet101"]
 
 
