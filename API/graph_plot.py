@@ -1,5 +1,5 @@
 from utils import *
-def getPlottedGraph(epochs,train_losses, train_accuracy, test_losses, test_accuracy,name=None, PATH=None):
+def getPlottedGraph(epochs,train_losses, train_accuracy, test_losses, test_accuracy,name="los_fig", PATH="./"):
 
     x_epochs = np.arange(0, epochs, 1)
 
@@ -28,4 +28,37 @@ def getPlottedGraph(epochs,train_losses, train_accuracy, test_losses, test_accur
 
     plt.show()
 
+
+def plot_lr(lrs, moms=None,name="lr_fig", PATH="./" ):
+    "Plot learning rate, `show_moms` to include momentum"
+    iterations = list(range(len(lrs)))
+
+    plt.figure(figsize=(14, 10))
+    plt.subplot(111)
+    plt.title("Learning Rate")
+    plt.plot(iterations, lrs, color='r', label="test accuracy")
+    
+    plt.savefig(PATH + str(name) + ".png")
+    plt.show()
+
+    
+    # if moms!= None:
+    #     fig, axs = plt.subplots(1, 2, figsize=(18, 10))
+    #     axs[0].plot(iterations, lrs)
+    #     axs[0].set_title("Learning Rate")
+    #     axs[1].plot(iterations, moms)
+    #     axs[1].set_title("Momentum")
+    #     plt.savefig(PATH + str(name) + ".png")
+    #     plt.show()
+    # else:
+    #     fig, axs = plt.subplots(1, 1, figsize=(14, 10))
+    #     axs[0].plot(iterations, lrs)
+    #     axs[0].set_title("Learning Rate")
+    #     plt.savefig(PATH + str(name) + ".png")
+    #     plt.show()
+
+
+    
+
+    
 
