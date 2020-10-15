@@ -31,9 +31,7 @@
        Uses this transform -RandomCrop 32, 32 (after padding of 4) >> FlipLR >> Followed by CutOut(8, 8)
        Batch size = 512
        Target Accuracy: 90%. 
-       The lesser the modular your code is (i.e. more the code you have written in your Colab file), less marks you'd get. 
-       ```
- 
+       The lesser the modular your code is (i.e. more the code you have written in your Colab file), less marks you'd get.  ``` 
 
 ### Result:
 - Best Train accuracy: 81.34
