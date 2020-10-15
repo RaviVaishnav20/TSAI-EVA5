@@ -3,7 +3,7 @@
 ### Target:
 - Write a code that draws this curve (without the arrows). In submission, you'll upload your drawn curve and code for that
 
--Write a code which
+- Write a code which
   - uses this new ResNet Architecture for Cifar10:
    ``` PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
 Layer1 -
