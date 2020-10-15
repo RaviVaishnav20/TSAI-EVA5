@@ -126,7 +126,7 @@ class OneCycleScheduler():
         a1 = int(n * self.pct_start)
         a2 = n - a1
 
-        self.phases = ((a1, annealing_no), (a2, annealing_no))
+        self.phases = ((a1, annealing_linear), (a2, annealing_linear))
         # self.phases = (annealing_linear, annealing_cos,annealing_no)
         lr_min = self.lr_max / self.div_factor
 

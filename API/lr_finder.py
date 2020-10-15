@@ -148,6 +148,7 @@ class LRFinder(object):
         memory_cache=True,
         cache_dir=None,
     ):
+
         # Check if the optimizer is already attached to a scheduler
         self.optimizer = optimizer
         self._check_for_scheduler()
@@ -446,6 +447,7 @@ class LRFinder(object):
         ax=None,
         suggest_lr=True,
     ):
+        my_lr = 0.0
         """Plots the learning rate range test.
 
         Arguments:
@@ -509,6 +511,7 @@ class LRFinder(object):
                 )
             if min_grad_idx is not None:
                 print("Suggested LR: {:.2E}".format(lrs[min_grad_idx]))
+                my_lr = lrs[min_grad_idx]
                 ax.scatter(
                     lrs[min_grad_idx],
                     losses[min_grad_idx],
@@ -519,6 +522,7 @@ class LRFinder(object):
                     label="steepest gradient",
                 )
                 ax.legend()
+                return my_lr
 
         if log_lr:
             ax.set_xscale("log")
@@ -536,6 +540,7 @@ class LRFinder(object):
             return ax, lrs[min_grad_idx]
         else:
             return ax
+
 
 
 class LinearLR(_LRScheduler):
