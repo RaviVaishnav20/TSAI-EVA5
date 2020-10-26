@@ -34,9 +34,9 @@
 ### Results:
 
 #### OpenCV
-<img src="https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg" width="400" height="790">
+<img src="https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg" width="400" height="590">
 
 
 
 #### Yolo v3
-[![Yolo v3](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg =85x92)](https://www.youtube.com/watch?v=dZI2gvkobz8)
+[![Yolo v3](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg)](https://www.youtube.com/watch?v=dZI2gvkobz8)
