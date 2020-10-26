@@ -34,7 +34,7 @@
 ### Results:
 
 #### OpenCV
-![OpenCV object detection](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg)
+![OpenCV object detection](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg =85x92)
 
 #### Yolo v3
-[![Yolo v3](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=dZI2gvkobz8)
+[![Yolo v3](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg =85x92)](https://www.youtube.com/watch?v=dZI2gvkobz8)
