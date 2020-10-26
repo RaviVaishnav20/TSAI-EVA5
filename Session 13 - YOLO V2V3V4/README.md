@@ -34,7 +34,9 @@
 ### Results:
 
 #### OpenCV
-![OpenCV object detection](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg){:height="50%" width="50%"}
+<img src="https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg" width="400" height="790">
+
+
 
 #### Yolo v3
 [![Yolo v3](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloOpenCV/savedImage.jpg =85x92)](https://www.youtube.com/watch?v=dZI2gvkobz8)
