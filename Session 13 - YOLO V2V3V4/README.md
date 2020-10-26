@@ -38,5 +38,5 @@
 
 
 
-#### Yolo v3
-[![Yolo v3 "Click on the image to see detection on video"](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloPytorch/visualization/video_tubnails.PNG)](https://www.youtube.com/watch?v=dZI2gvkobz8)
+#### Yolo v3 (Click on the image to see detection on video)
+[![Yolo v3](https://github.com/RaviVaishnav20/TSAI-EVA5/blob/master/Session%2013%20-%20YOLO%20V2V3V4/YoloPytorch/visualization/video_tubnails.PNG)](https://www.youtube.com/watch?v=dZI2gvkobz8)
